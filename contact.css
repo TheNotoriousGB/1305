@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Zentriert den Text */
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ff6347;
+}
+
+main {
+    padding: 20px;
+}
+
+.slideshow {
+    width: 60%; /* Reduziert die Breite der Diashow auf 60% */
+    height: 200px; /* Reduziert die Höhe der Diashow auf 200px */
+    overflow: hidden;
+    position: relative;
+    margin: auto; /* Zentriert die Diashow */
+}
+
+.slideshow img {
+    max-width: 100%; /* Stellt sicher, dass die Bilder die volle Breite der Diashow einnehmen */
+    max-height: 100%; /* Behält das Seitenverhältnis der Bilder bei */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    object-fit: contain; /* Stellt sicher, dass das gesamte Bild sichtbar ist */
+}
+
+.slideshow img.active {
+    opacity: 1;
+}
+
+section {
+    margin-bottom: 50px; /* Erhöht den Abstand unterhalb der Sektion */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hinzugefügt für die Diashow */
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation: fade 1.5s infinite;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.dot {
+    display: none; /* Versteckt die Punkte */
+}
+
+.active {
+    background-color: #717171;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Willkommen bei [Unternehmensname]</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <h1>Restaurant La Bodega</h1>
+        <img src="bull-silhouette-17-3676603778.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="services.html">Dienstleistungen</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Willkommen bei La Bodega</h2>
+            <p>Wir sind ein führendes Unternehmen in der Branche und bieten hochwertige Dienstleistungen an.</p>
+            <p>Unser Ziel ist es, unseren Kunden erstklassige Lösungen zu bieten und ihre Zufriedenheit zu gewährleisten.</p>
+        </section>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="table-5356682_640.jpg" alt="Slideshow Image 1"></div>
+                <div class="swiper-slide"><img src="table-5706576_640.jpg" alt="Slideshow Image 2"></div>
+                <div class="swiper-slide"><img src="lasagna-5994612_640.jpg" alt="Slideshow Image 3"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+        <section>
+            <h2>Unsere Dienstleistungen</h2>
+            <ul style="list-style-type: none;">
+                <li>Take-Away</li>
+                <li>Party-Service</li>
+                <li>Restaurant</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© [Jahr] [Unternehmensname]. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
