@@ -10,6 +10,6 @@ namespace LA_1305feedback.Services
 {
     public class MongoDBService
     {
-        private readonly IMongoCollection<> _playlistCollection;
+        private readonly //IMongoCollection<> _playlistCollection;
     }
 }
