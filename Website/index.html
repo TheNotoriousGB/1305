@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Willkommen bei [Unternehmensname]</title>
+    <title>La Bodega</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -34,9 +34,7 @@
                 <div class="swiper-slide"><img src="table-5706576_640.jpg" alt="Slideshow Image 2"></div>
                 <div class="swiper-slide"><img src="lasagna-5994612_640.jpg" alt="Slideshow Image 3"></div>
             </div>
-            <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
-            <!-- Add Navigation -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
@@ -49,16 +47,32 @@
                 <li>Restaurant</li>
             </ul>
         </section>
+
+        <section class="Kundenfeedback">
+            <h2>Kundenfeedback</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
     </main>
     
     <footer>
-        <p>© [Jahr] [Unternehmensname]. Alle Rechte vorbehalten.</p>
+        <p>© 2024 La Bodega. Alle Rechte vorbehalten.</p>
     </footer>
 
-    <!-- Swiper JS -->
+  
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
+    
     <script>
         var swiper = new Swiper('.swiper-container', {
             navigation: {
