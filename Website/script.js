@@ -36,3 +36,36 @@ function showSlides() {
 
 // Rufe die Funktion showSlides auf, um den Slideshow-Effekt zu starten
 showSlides();
+
+function handleFormSubmit(event) {
+    event.preventDefault(); // Standard-Formular-Submit verhindern
+    
+    // Formulardaten sammeln
+    const formData = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    };
+    
+    // Daten an die API mit einer PUT-Anfrage senden
+    fetch("YOUR_API_ENDPOINT_URL", {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("Success:", data);
+        // Optional: Erfolgsmeldung an den Benutzer anzeigen
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        // Optional: Fehlermeldung an den Benutzer anzeigen
+    });
+}
+
+// Event-Listener für das Formular-Submit-Event hinzufügen
+const form = document.getElementById("feedbackForm");
+form.addEventListener("submit", handleFormSubmit);
