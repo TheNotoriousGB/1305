@@ -1,3 +1,6 @@
+using LA_1305feedback.Models;
+using LA_1305feedback.Services;
+
 namespace LA_1305feedback
 {
     public class Program
@@ -5,6 +8,9 @@ namespace LA_1305feedback
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
+            builder.Services.AddSingleton<MongoDBService>();
 
             // Add services to the container.
 
