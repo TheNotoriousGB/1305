@@ -12,6 +12,8 @@ namespace LA_1305feedback.Models
 
         public string name { get; set; } = null!;
 
+        public string email { get; set; } = null!;  
+
         public string message { get; set; } = null!; 
     }
 }
