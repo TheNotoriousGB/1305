@@ -49,7 +49,7 @@ function handleFormSubmit(event) {
     };
     
     // Daten an die API mit einer POST-Anfrage senden
-    fetch("https://localhost:8443/api/kundenfeedback", {
+    fetch("https://localhost:8443/api/Kundenfeedback", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
