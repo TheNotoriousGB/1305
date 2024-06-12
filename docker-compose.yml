@@ -1,20 +1,20 @@
-﻿version: '3.8'
+version: '3.4'
 
 services:
-  api:
+  la_1305feedback:
     build:
-      context: .
+      context: LA_1305Feedback
       dockerfile: Dockerfile
-    ports:
-      - "80:80"
-      - "443:443"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - MongoDB__connnectionURI=mongodb://mongo:27017/
+      - MongoDB__ConnectionURI=mongodb://mongo:27017/
       - MongoDB__DatabaseName=Feedback_1305
       - MongoDB__CollectionName=kundenFeedback
     depends_on:
       - mongo
+    ports:
+      - "80:80"
+      - "443:443"
 
   mongo:
     image: mongo:latest
