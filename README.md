@@ -20,10 +20,12 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-|1| muss | funktional| ALs Kunde möchte ich ein Feedback eingeben können |
-|2| muss | funktional | Als Kunde möchte ich das dieses Feedback in einer APi gespeichert wird | 
-|3| muss | funktional | 
-
+3| muss | funktional | Als ein Kunde möchte ich meine meinung zu dem Restaurant abgeben können, damit das Rsetaurant sich verbbessern kann.|
+|1| muss | funktional| ALs ein Kunde möchte ich mein Feedback in ein Formular eingeben können, damit mein Feddback übersichtlicher ist. |
+|2| muss | funktional | Als Kunde möchte ich das dieses Feedback gespeichert wird, damit das Unternehmen dieses erhält.| 
+|4| muss | funktional | Als Kunde möchte ich das die Website übersichtlich ist , damit ich mich einfach orientieren kann|
+|5| muss | funktional | Als Kunde möchte ich das das feedback ankommt wird|
+|6| muss | funktional | Als Kunde möchte ich das das Feedback gelesen wird|
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
