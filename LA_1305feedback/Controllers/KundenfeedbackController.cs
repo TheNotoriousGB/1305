@@ -7,11 +7,11 @@ namespace LA_1305feedback.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class KundenfeedackController : ControllerBase
+    public class KundenfeedbackController : ControllerBase
     {
         private readonly MongoDBService _mongoDBService;
 
-        public KundenfeedackController(MongoDBService mongoDBService) 
+        public KundenfeedbackController(MongoDBService mongoDBService) 
         {
             _mongoDBService = mongoDBService;
         }
