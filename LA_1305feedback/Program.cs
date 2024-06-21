@@ -12,8 +12,6 @@ namespace LA_1305feedback
             builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDB"));
             builder.Services.AddSingleton<MongoDBService>();
 
-            // Add services to the container.
-            builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -21,18 +19,19 @@ namespace LA_1305feedback
             // Configure CORS
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy",
+                options.AddPolicy("AllowAllOrigins",
             builder => builder
             .AllowAnyOrigin()           // Erlaubt alle Ursprünge
             .AllowAnyMethod()           // Erlaubt alle HTTP-Methoden (GET, POST, etc.)
-            .AllowAnyHeader()           // Erlaubt alle Header in der Anfrage
-            .AllowCredentials());
+            .AllowAnyHeader());          // Erlaubt alle Header in der Anfrage
+            
             });
+            // Add services to the container.
+            builder.Services.AddControllers();
 
             var app = builder.Build();
 
 
-            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -43,7 +42,7 @@ namespace LA_1305feedback
             app.UseHttpsRedirection();
 
             // Use CORS
-            app.UseCors("CorsPolicy");
+            app.UseCors("AllowAllOrigins"); 
 
             app.UseAuthorization();
 
