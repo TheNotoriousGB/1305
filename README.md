@@ -24,7 +24,7 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 |2| muss | funktional|Als Kunde möchte ich verschiedene Seiten aufrufen können  |
 |3| muss | funktional | Als ein Kunde möchte ich meine meinung zu dem Restaurant abgeben können, damit das Rsetaurant sich verbbessern kann
 |4| muss | funktional | Als ein Kunde möchte ich mein Feedback in ein Formular eingeben können, damit mein Feddback übersichtlicher ist.|
-|5| muss | funktional | Als Kunde möchte ich das das gesüeichert  wird|
+|5| muss | funktional | Als Kunde möchte ich das dasFeedback gespeichert  wird|
 |6| muss | funktional | Als Kunde möchte ich das das Feedback gelesen wird|
 |7| kann | Rand|Als kunde möchte ich ein ansprechendes design haben |
 |8| kann | Rand|Als Kunde möchte ich verschiedene Bilder zum Restaurant auf einer seite haben |
@@ -34,8 +34,10 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-
-
+|1|keine | Website öffnen| Website wird geöffnet|
+|2| geöffnete Webseite| - | Bilder werden auf der Webseite amgezeigt|
+|3| Webseite geöffnet| Email, Benutzername, Bewertung| Vielen Dank für ihr Feedback|
+|4| Webseite geöffnet| 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
