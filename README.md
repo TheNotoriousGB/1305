@@ -23,11 +23,10 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 |1| muss | funktional | Als Kunde möchte ich die wichtigsten infos auf der Startseite haben .|
 |2| muss | funktional|Als Kunde möchte ich verschiedene Seiten aufrufen können  |
 |3| muss | funktional | Als ein Kunde möchte ich meine meinung zu dem Restaurant abgeben können, damit das Rsetaurant sich verbbessern kann
-|4| muss | funktional | Als ein Kunde möchte ich mein Feedback in ein Formular eingeben können, damit mein Feddback übersichtlicher ist.|
-|5| muss | funktional | Als Kunde möchte ich das dasFeedback gespeichert  wird|
-|6| muss | funktional | Als Kunde möchte ich das das Feedback gelesen wird|
-|7| kann | Rand|Als kunde möchte ich ein ansprechendes design haben |
-|8| kann | Rand|Als Kunde möchte ich verschiedene Bilder zum Restaurant auf einer seite haben |
+|4| muss | funktional | Als Kunde möchte ich das dasFeedback gespeichert  wird|
+|5| muss | funktional | Als Kunde möchte ich das das Feedback gelesen wird|
+|6| kann | Rand|Als kunde möchte ich ein ansprechendes design haben |
+|7| kann | Rand|Als Kunde möchte ich verschiedene Bilder zum Restaurant auf einer seite haben |
 
  
 ### 1.3 Testfälle
@@ -37,20 +36,22 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 |1.1|  -                | Website öffnen| Website wird geöffnet|
 |2.1| Webseite geöffnet | auf eine navigations leiste klicken  | Neue Seite öffnen|
 |3.1| Webseite geöffnet | Email, Benutzername, Bewertung       | Vielen Dank für ihr Feedback|
-|4.1| webseite geöffnet | -                                    | Formular wird angezeigt|
-|5.1| Website geöffnet  | Emai, Name, Bewertung                | Vielen Dank für ihr Feedback|
-|8.1| geöffnete Webseite| -                                    | Bilder werden auf der Webseite amgezeigt|
+|4.1| Website geöffnet  | Emai, Name, Bewertung                | Vielen Dank für ihr Feedback|
+|7.1| geöffnete Webseite| -                                    | Bilder werden auf der Webseite amgezeigt|
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-|1|29.05.2024 |John Broder, Ensar Yildirim | Startseite mit html und css programmieren|60min|
-|2|05.06.2024|Gabriel Bischof                  |API esrtellen                           |90min|
-|3|05.06.2024|Ensar Yildirim                   |Mongo db einrichten                     |90min|
-|4|05.06.2024|John Broder, Gabriel Bischof     |APi mit Frontened verbinden             |120min|
-|5|05.06.2024| Ensar Yildirim , Gabriel Bischof|Api in Dockercontainer laufen lassen    |120min|
-|6|05.06.2024|John Broder                      |mit postman api testen                  |30min|
-|7|05.06.2024|Ensar Yildirim, Gabriel Bischof  |Allgemeines Testen                      |60min|
+|1.1|29.05.2024 |John Broder, Ensar Yildirim | Startseite mit html und css programmieren|60min|
+|2.1.| 29.05.2024| John Broder| Einen Mechanismus erstellen, der das Wechseln zwischen Seiten ermöglicht.|15min|
+|3.1| 29.05.2024| Gabriel Bischof| Eingabe Feld programmiernen In das der Benutzer seine Meinung schreiben kann|15min|
+|4.1|05.06.2024|Gabriel Bischof                  |API esrtellen                           |90min|
+|4.2|05.06.2024|Ensar Yildirim                   |Mongo db einrichten                     |90min|
+|4.3|05.06.2024|John Broder, Gabriel Bischof     |APi mit Frontened verbinden             |120min|
+|4.4|05.06.2024| Ensar Yildirim , Gabriel Bischof|Api in Dockercontainer laufen lassen    |120min|
+|5.1|05.06.2024|John Broder                      |mit postman api testen                  |30min|
+|6.1|05.06.2024| Ensar Yildirim                  | ansprechendes design der webseite erstellen|30 min|
+|7.1|05.06.2024|Ensar Yildirim, Gabriel Bischof  |verschiedene Bilder in die ebseite einfügen|15min|
 
 ## 3 Entscheiden
 
@@ -61,13 +62,16 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-|1|29.05.2024 |John Broder, Ensar Yildirim     |60min  |75min |
-|2|05.06.2024|Gabriel Bischof                  |90min  |120min|
-|3|05.06.2024|Ensar Yildirim                   |90min  |120min|
-|4|05.06.2024|John Broder, Gabriel Bischof     |120min |120min|
-|5|05.06.2024| Ensar Yildirim , Gabriel Bischof|120min |150min|
-|6|05.06.2024|John Broder                      |30min  |30min |
-|7|05.06.2024|Ensar Yildirim, Gabriel Bischof  |60min  |60min |                  
+|1.1|29.05.2024 |John Broder, Ensar Yildirim     |60min  |75min |
+|2.1| 29.05.2024|John Broder| 15min| 15min|
+|3.1| 29.05.2024| Gabriel Bischof| 15min|15min|
+|4.1|05.06.2024|Gabriel Bischof                  |90min  |120min|
+|4.2|05.06.2024|Ensar Yildirim                   |90min  |120min|
+|4.3|05.06.2024|John Broder, Gabriel Bischof     |120min |120min|
+|4.4|05.06.2024| Ensar Yildirim , Gabriel Bischof|120min |150min|
+|5.1|05.06.2024|John Broder                      |30min  |30min |
+|6.1|05.06.2024| Ensar Yildirim                   |30min |30min|
+|7.1|05.06.2024|Ensar Yildirim, Gabriel Bischof  |15min  |15min |                  
 
 
 ## 5 Testen
@@ -79,5 +83,4 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 |2.1| 05.06.2024| OK|
 |3.1| 05.06.2024| OK|
 |4.1| 05.06.2024| OK|
-|5.1| 05.06.2024| OK|
-|8.1| 05.06.2024| OK|
+|7.1| 05.06.2024| OK|
