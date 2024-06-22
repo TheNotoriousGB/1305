@@ -54,7 +54,8 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 |7.1|05.06.2024|Ensar Yildirim, Gabriel Bischof  |verschiedene Bilder in die ebseite einfügen|15min|
 
 ## 3 Entscheiden
-
+Wir haben uns entschieden, unsere Datenbank und API in einem Docker-Container laufen zu lassen. Dabei werden wir MongoDB als NoSQL-Datenbank verwenden.
+Die API werden wir mit Postman testen.
 
 
 
