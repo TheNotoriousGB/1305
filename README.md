@@ -57,7 +57,13 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-
+|1|29.05.2024 |John Broder, Ensar Yildirim     |60min  |75min |
+|2|05.06.2024|Gabriel Bischof                  |90min  |120min|
+|3|05.06.2024|Ensar Yildirim                   |90min  |120min|
+|4|05.06.2024|John Broder, Gabriel Bischof     |120min |120min|
+|5|05.06.2024| Ensar Yildirim , Gabriel Bischof|120min |150min|
+|6|05.06.2024|John Broder                      |30min  |30min |
+|7|05.06.2024|Ensar Yildirim, Gabriel Bischof  |60min  |60min |                  
 
 
 ## 5 Testen
