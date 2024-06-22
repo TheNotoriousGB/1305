@@ -40,6 +40,13 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
+| 1 |29.05.2024 |John Broder, Ensar Yildirim | Startseite mit html und css programmieren|60min|
+|2|05.06.2024|Gabriel Bischof                  |API esrtellen                           |90min|
+|3|05.06.2024|Ensar Yildirim                   |Mongo db einrichten                     |90min|
+|4|05.06.2024|John Broder, Gabriel Bischof     |APi mit Frontened verbinden             |120min|
+|5|05.06.2024| Ensar Yildirim , Gabriel Bischof|Api in Dockercontainer laufen lassen    |120min|
+|6|05.06.2024|John Broder                      |mit postman api testen                  |30min|
+|7|05.06.2024|Ensar Yildirim, Gabriel Bischof  |Allgemeines Testen                      |60min|
 
 ## 3 Entscheiden
 
