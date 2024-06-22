@@ -32,7 +32,7 @@ function handleFormSubmit(event) {
     })
     .catch((error) => {
       console.error("Error:", error);
-      // Optional: Fehlermeldung an den Benutzer anzeigen
+      //Fehlermeldung an den Benutzer anzeigen
       alert(
         "Beim Senden Ihres Feedbacks ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
       );
