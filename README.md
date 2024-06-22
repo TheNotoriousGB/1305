@@ -23,7 +23,6 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 |1| muss | funktional | Als Kunde möchte ich die wichtigsten infos auf der Startseite haben .|
 |2| muss | funktional|Als Kunde möchte ich verschiedene Seiten aufrufen können  |
 |3| muss | funktional | Als ein Kunde möchte ich meine meinung zu dem Restaurant abgeben können, damit das Rsetaurant sich verbbessern kann
-| 
 |4| muss | funktional | Als ein Kunde möchte ich mein Feedback in ein Formular eingeben können, damit mein Feddback übersichtlicher ist.
 rand|
 |5| muss | funktional | Als Kunde möchte ich das das gesüeichert  wird|
