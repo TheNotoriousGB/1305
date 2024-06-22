@@ -34,15 +34,17 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-|1|keine | Website öffnen| Website wird geöffnet|
-|2| geöffnete Webseite| - | Bilder werden auf der Webseite amgezeigt|
-|3| Webseite geöffnet| Email, Benutzername, Bewertung| Vielen Dank für ihr Feedback|
-|4| Webseite geöffnet| 
+|1.1|  -                | Website öffnen| Website wird geöffnet|
+|2.1| Webseite geöffnet | auf eine navigations leiste klicken  | Neue Seite öffnen|
+|3.1| Webseite geöffnet | Email, Benutzername, Bewertung       | Vielen Dank für ihr Feedback|
+|4.1| webseite geöffnet | -                                    | Formular wird angezeigt|
+|5.1| Website geöffnet  | Emai, Name, Bewertung                | Vielen Dank für ihr Feedback|
+|8.1| geöffnete Webseite| -                                    | Bilder werden auf der Webseite amgezeigt|
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1 |29.05.2024 |John Broder, Ensar Yildirim | Startseite mit html und css programmieren|60min|
+|1|29.05.2024 |John Broder, Ensar Yildirim | Startseite mit html und css programmieren|60min|
 |2|05.06.2024|Gabriel Bischof                  |API esrtellen                           |90min|
 |3|05.06.2024|Ensar Yildirim                   |Mongo db einrichten                     |90min|
 |4|05.06.2024|John Broder, Gabriel Bischof     |APi mit Frontened verbinden             |120min|
