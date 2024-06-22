@@ -36,7 +36,7 @@ Unser Projekt ist eine Website, auf der Kunden ihr Feedback eingeben können. Di
 |1.1|  -                | Website öffnen| Website wird geöffnet|
 |2.1| Website geöffnet |Auf eine Navigationsleiste klicken	|Neue Seite wird geöffnet|
 |3.1| Website geöffnet | E-Mail, Name, Bewertung eingeben     | Vielen Dank für ihr Feedback|
-|4.1| Website geöffnet  | E-Mail, Name, Bewertung                | Vielen Dank für Ihr Feedback|
+|4.1| Website geöffnet  | E-Mail, Name, Bewertung                | Der Datensatz ist in der Datenbank gespeichert.|
 |7.1| Website geöffnet| -                                    | Bilder werden auf der Website angezeigtt|
 ## 2 Planen
 
