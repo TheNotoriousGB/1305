@@ -28,9 +28,9 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 rand|
 |5| muss | funktional | Als Kunde möchte ich das das gesüeichert  wird|
 |6| muss | funktional | Als Kunde möchte ich das das Feedback gelesen wird|
-rand 
-Als kunde möchte ich ein ansprechendes design haben 
-Als Kunde möchte ich verschiedene Bilder zum Restaurant auf einer seite haben 
+|7| kann | Rand|Als kunde möchte ich ein ansprechendes design haben |
+|8| kann | Rand|Als Kunde möchte ich verschiedene Bilder zum Restaurant auf einer seite haben |
+
  
 ### 1.3 Testfälle
 
