@@ -4,7 +4,7 @@ Gabriel Bischof, Ensar Yildirm, John Broder
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|15.05.2024       | 1.1   | Wir haben begonnen, die Dokumentation zu bearbeiten. Außerdem haben wir uns darüber informiert, wie wir unser Projekt umsetzen können. |
+|15.05.2024       | 1.1   | Wir haben begonnen, die Dokumentation zu bearbeiten. Ausserdem haben wir uns darüber informiert, wie wir unser Projekt umsetzen können. |
 |22.05.2024       | 1.2    | Wir haben die Planung unseres Projekts abgeschlossen und mit dem Programmieren begonnen.|
 |29.05.2024       | 2.1   |  Wir sind mit dem Frontend fortgefahren und haben bereits einen Teil des Backends programmiert.|
 |05.06.2024       | 2.2   | Wir haben unser Projekt fertig programmiert.|
