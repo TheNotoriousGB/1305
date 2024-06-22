@@ -75,3 +75,9 @@ Unser Projekt ist eine Website auf der Kunden ihr Feedback eingeben können und 
 
 | TC-№ | Datum | Resultat |
 | ---- | ----- | -------- | 
+|1.1| 05.06.2024| OK|
+|2.1| 05.06.2024| OK|
+|3.1| 05.06.2024| OK|
+|4.1| 05.06.2024| OK|
+|5.1| 05.06.2024| OK|
+|8.1| 05.06.2024| OK|
